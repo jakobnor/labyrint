@@ -1,25 +1,23 @@
-Teleportation System: Teleporters ('T') that instantly transport the player to another location within the level.
+** Starting level door to "aSharpPlace": The starting level has a door that lets the player proceed to "aSharpPlace."
 
-Automated NPC Movement: NPCs ('X') that patrol automatically and interact with the player upon collision.
+** Third level linked from "aSharpPlace": An unused door in "aSharpPlace" leads to a new third level.
 
-Battle System: Players can engage in combat with NPCs, with health points (HP) decreasing during battles.
+** Teleport functionality in "aSharpPlace": Teleporters ("T" symbols) move the player between two locations.
 
-Pickups and Items:
-Health Potions ('!'): Restore the player's health.
-Poison ('✖'): Reduce the player's health.
-Loot ('$'): Increase the player's cash.
-Winning Condition: A special item ('★') that, when collected, results in winning the game.
+** Returning to the correct room through doors: Going back through a door returns the player to the previous room.
 
-Event Message System: Displays messages for important events like item pickups and combat outcomes.
+** NPC patrols: X NPC characters perform simple patrols within a range of two tiles from their starting positions.
 
-Multiple Levels and Navigation: Ability to move between levels ('start', 'aSharpPlace', 'thirdLevel') using doors ('D').
+** Create an animated splash screen (this was a group assignment from a previous week) using splashScreen.mjs.
 
-HUD (Heads-Up Display): Shows the player's health and cash.
+• NPC stats: NPCs have strength and hitpoints.
 
-Color-Coded Symbols: Different game elements have specific colors for better visual distinction.
+• Simple battle system: Collisions with NPCs deal damage based on player and NPC stats.
 
-Enhanced Map Design: More interesting and challenging levels with strategic item placement.
+• Battle event messages: Battle events are displayed beneath the map.
 
-Improved Game Mechanics: Smooth player movement, collision detection, and appropriate game-over conditions.
+• Event messages duration: Event messages stay on screen longer for better visibility.
 
-Input Handling: Keyboard controls for player movement using arrow keys.
+• Health potion and poison pickups: Two new pickups have been added—health potions and poison.
+
+• Unique game feature: Implemented a special item that the player must find to win the game.
